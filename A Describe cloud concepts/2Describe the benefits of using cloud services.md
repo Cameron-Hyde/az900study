@@ -1,9 +1,9 @@
 # Introduction #
->Upon completing this module, you’ll be able to:
-    >>Describe the benefits of high availability and scalability in the cloud.
-    >>Describe the benefits of reliability and predictability in the cloud.
-    >>Describe the benefits of security and governance in the cloud.
-    >>Describe the benefits of manageability in the cloud.
+## Upon completing this module, you’ll be able to:
+>Describe the benefits of high availability and scalability in the cloud.
+>Describe the benefits of reliability and predictability in the cloud.
+>Describe the benefits of security and governance in the cloud.
+>Describe the benefits of manageability in the cloud.
 
 # Describe the benefits of high availability and scalability in the cloud #
 
@@ -11,9 +11,9 @@
 * Azure is a highly available cloud environment with uptime guarantees depending on the service, which are part of the service-level agreements (SLAs).
 * Scalability in cloud computing refers to the ability to adjust resources to meet demand.
 * Cloud resources can be scaled up or down depending on demand, which also helps to reduce costs by only paying for what is used.
-* Scaling generally comes in two varieties: <vertical> and <horizontal>
-* <Vertical> scaling involves increasing or decreasing the capabilities of resources such as adding more CPUs or RAM to the virtual machine.
-* <Horizontal> scaling involves adding or subtracting the number of resources, such as adding additional virtual machines or containers.
+* Scaling generally comes in two varieties: **vertical** and **horizontal**
+* **Vertical** scaling involves increasing or decreasing the capabilities of resources such as adding more CPUs or RAM to the virtual machine.
+* **Horizontal** scaling involves adding or subtracting the number of resources, such as adding additional virtual machines or containers.
 * It can be done automatically or manually.
 
 # Describe the benefits of reliability and predictability in the cloud #
@@ -41,7 +41,7 @@
 * Management in the cloud refers to how you manage your cloud environment, such as through a web portal, command line interface, APIs, or PowerShell.
 
 # Knowledge check #
->1.Which type of scaling involves adding or removing resources (such as virtual machines or containers) to meet demand?
-    >>Horizontal scaling is adding or subtracting the number of resources.
->2.What is characterized as the ability of a system to recover from failures and continue to function?
-    >>Reliability is the ability of a system to recover from failures and continue to function, and it is one of the pillars of the Microsoft Azure Well-Architected Framework.
+1.Which type of scaling involves adding or removing resources (such as virtual machines or containers) to meet demand?
+>Horizontal scaling is adding or subtracting the number of resources.
+2.What is characterized as the ability of a system to recover from failures and continue to function?
+>Reliability is the ability of a system to recover from failures and continue to function, and it is one of the pillars of the Microsoft Azure Well-Architected Framework.

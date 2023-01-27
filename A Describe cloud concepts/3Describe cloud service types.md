@@ -30,7 +30,7 @@ Common examples of SaaS include email, financial software, messaging application
 * SaaS is suitable for scenarios such as email and messaging, business productivity applications, and finance and expense tracking.
 
 # Knowledge check #
->1. Which cloud service type is most suited to a lift and shift migration from an on-premises datacenter to a cloud deployment?
-    >>With an IaaS service type, you can approximate your on-premises environment, making a lift-and-shift transition to the cloud relatively straightforward.
->2. What type of cloud service type would a Finance and Expense tracking solution typically be in?
-    >>SaaS provides access to software solutions, such as finance and expense tracking, email, or ticketing systems.
+1. Which cloud service type is most suited to a lift and shift migration from an on-premises datacenter to a cloud deployment?
+>With an IaaS service type, you can approximate your on-premises environment, making a lift-and-shift transition to the cloud relatively straightforward.
+2. What type of cloud service type would a Finance and Expense tracking solution typically be in?
+>SaaS provides access to software solutions, such as finance and expense tracking, email, or ticketing systems.

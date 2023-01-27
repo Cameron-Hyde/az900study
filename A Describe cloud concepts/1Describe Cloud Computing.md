@@ -3,13 +3,14 @@
 * Microsoft Azure is a cloud computing platform that offers a wide range of services for building solutions to meet business goals.
 * Azure services support everything from simple to complex, from hosting a business presence in the cloud to running fully virtualized computers managing custom software solutions.
 * Azure provides services such as remote storage, database hosting, and centralized account management. It also offers new capabilities such as AI and IoT focused services.
->Upon completing this module, you will be able to:
-    >>Define cloud computing
-    >>Describe the shared responsibility model
-    >>Define cloud models, including public, private, and hybrid
-    >>Identify appropriate use cases for each cloud model
-    >>Describe the consumption-based model
-    >>Compare cloud pricing models.
+## Upon completing this module, you will be able to:
+
+>Define cloud computing
+>Describe the shared responsibility model
+>Define cloud models, including public, private, and hybrid
+>Identify appropriate use cases for each cloud model
+>Describe the consumption-based model
+>Compare cloud pricing models.
 
 # What is cloud computing #
 
@@ -43,30 +44,37 @@
 
 # Define cloud models #
 
-* Cloud models define the deployment type of cloud resources.The three main cloud models are: <private>, <public>, and <hybrid>.
+* Cloud models define the deployment type of cloud resources.The three main cloud models are: **private**, **public**, and **hybrid**.
 
-* <Private> cloud is a cloud (delivering IT services over the internet) that’s used by a single entity, providing greater control for the company and its IT department but also greater cost and fewer benefits than public clouds.
-________________________________________________________________________
+* **Private** cloud is a cloud (delivering IT services over the internet) that’s used by a single entity, providing greater control for the company and its IT department but also greater cost and fewer benefits than public clouds.
+
 |Organizations have complete control over resources and security       |
+------------------------------------------------------------------------
 |Data is not collocated with other organizations’ data                 |
+------------------------------------------------------------------------
 |Hardware must be purchased for startup and maintenance                |
+------------------------------------------------------------------------
 |Organizations are responsible for hardware maintenance and updates    |
-________________________________________________________________________
 
-* <Public> cloud is built, controlled, and maintained by a third-party cloud provider, it is generally available to anyone that wants to purchase cloud services.
-________________________________________________________________________
+* **Public** cloud is built, controlled, and maintained by a third-party cloud provider, it is generally available to anyone that wants to purchase cloud services.
+
 |no capital expeditures to scale up                                    |
+------------------------------------------------------------------------
 |Applications can be quickly provisioned and deprovisioned             |
+------------------------------------------------------------------------
 |Organizations pay only for what they use                              |
+------------------------------------------------------------------------
 |Organizations don’t have complete control over resources and security |
-________________________________________________________________________
 
-* <Hybrid> cloud is a computing environment that uses both public and private clouds in an inter-connected environment, allowing for increased, temporary demand and an extra layer of security.
-________________________________________________________________________
+
+* **Hybrid** cloud is a computing environment that uses both public and private clouds in an inter-connected environment, allowing for increased, temporary demand and an extra layer of security.
+
 |Provides the most flexibility                                         |
+------------------------------------------------------------------------
 |Organizations determine where to run their applications               |
+------------------------------------------------------------------------
 |Organizations control security, compliance, or legal requirements     | 
-________________________________________________________________________
+
 
 * Multi-cloud is a scenario in which you use multiple public cloud providers.
 * Azure Arc is a set of technologies that helps manage your cloud environment, whether it's a public cloud solely on Azure, a private cloud in your datacenter, a hybrid configuration, or even a multi-cloud environment.
@@ -80,17 +88,17 @@ ________________________________________________________________________
 * Cloud computing falls under OpEx because it operates on a consumption-based model, where you pay for the IT resources you use
 * This consumption-based model has benefits like no upfront costs, no need to purchase and manage costly infrastructure, ability to pay for more resources when needed and ability to stop paying for resources that are no longer needed
 * With traditional datacenter, you try to estimate future resource needs, but with cloud-based model, you don't have to worry about getting resource needs just right.
-*Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model
+* Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model
 * You pay only for the cloud services you use, which helps you plan and manage your operating costs, run your infrastructure more efficiently and scale as your business needs change
 * Cloud computing is a way to rent compute power and storage from someone else’s datacenter, you can treat cloud resources like you would resources in your own datacenter, but when you're done using cloud resources, you give them back, you're billed only for what you use
 * Cloud provider takes care of maintaining the underlying infrastructure for you, the cloud enables you to quickly solve your toughest business challenges and bring cutting-edge solutions to your users.
 
 # Knowledge Check #
->1.What is cloud computing?
-    >> Cloud computing is the delivery of computing services over the internet.
+1.What is cloud computing?
+>Cloud computing is the delivery of computing services over the internet.
 
->2.Which cloud model uses some datacenters focused on providing cloud services to anyone that wants them, and some data centers that are focused on a single customer?
-    >> The hybrid cloud model is a combination of public cloud and private cloud, using both datacenters dedicated solely to one customer and datacenters that are shared with the public.
+2.Which cloud model uses some datacenters focused on providing cloud services to anyone that wants them, and some data centers that are focused on a single customer?
+>The hybrid cloud model is a combination of public cloud and private cloud, using both datacenters dedicated solely to one customer and datacenters that are shared with the public.
 
->3.According to the shared responsibility model, which cloud service type places the most responsibility on the customer?
-    >>Infrastructure as a Service (IaaS)places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity.
+3.According to the shared responsibility model, which cloud service type places the most responsibility on the customer?
+>Infrastructure as a Service (IaaS)places the most responsibility on the consumer, with the cloud provider being responsible for the basics of physical security, power, and connectivity.
