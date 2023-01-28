@@ -34,8 +34,8 @@
 # Exercise - Explore the Learn sandbox #
 
 * The Learn sandbox is a free resource provided by Microsoft for educational purposes and can only be used to complete training on Microsoft Learn.
-* You can interact with the Learn sandbox in three different ways: <PowerShell CLI, BASH CLI, and Azure CLI interactive mode>.
-* To activate the Learn sandbox, use the <Activate sandbox> button and review and accept the permissions.
+* You can interact with the Learn sandbox in three different ways: **PowerShell CLI**, **BASH CLI**, and **Azure CLI interactive mode**.
+* To activate the Learn sandbox, use the **Activate sandbox** button and review and accept the permissions.
 * In PowerShell CLI mode, use the command `Get-date` to get the current date and time, and `az version` to check the version of the CLI you're using.
 * In BASH CLI mode, use the command `bash` to switch to BASH CLI and `date` to get the current date and time. You can use `az upgrade` to update the CLI.
 * In Azure CLI interactive mode, use the command `az interactive` to enter interactive mode, which provides autocompletion, command descriptions, and examples. You can use `version` and `upgrade` commands without "az" in front.
@@ -50,7 +50,7 @@
 To ensure resiliency, a minimum of three separate availability zones are present in all availability zone-enabled regions
 ```
 * Availability zones are used to run mission-critical applications and build high-availability into application architecture by co-locating resources within an availability zone and replicating in other availability zones.
-* Azure services that support availability zones fall into three categories: <zonal services>, <zone-redundant services>, and <non-regional services>.
+* Azure services that support availability zones fall into three categories: **zonal services**, **zone-redundant services**, and **non-regional services**.
 * To provide even further resilience, Azure has region pairs, which are paired with another region within the same geography at least 300 miles away.
 * Region pairs allow for the replication of resources across a geography, reducing the likelihood of interruptions due to events such as natural disasters, civil unrest, power outages, or physical network outages that affect an entire region.
 ```
@@ -90,7 +90,18 @@ It's also worth noting that a single directory can support up to 10,000 manageme
 * The module involves creating a virtual machine using the Azure portal
 * The virtual machine is created within a resource group, which automatically includes associated resources such as a storage account and virtual network
 * The following Azure CLI command can be used to create a virtual machine:
-* az vm create --name <your-vm-name> --resource-group <your-resource-group-name> --image <image-name>
+* az vm create `--name` "your-vm-name" `--resource-group` "your-resource-group-name" `--image` "image-name"
 * The following Azure CLI command can be used to delete the virtual machine:
-* az vm delete --name <your-vm-name> --resource-group <your-resource-group-name>
+* az vm delete `--name` "your-vm-name" `--resource-group` "your-resource-group-name"
 * It's important to note that when working in a personal subscription, resources that are no longer needed should be identified and potentially deleted to avoid incurring unnecessary costs.
+
+# Knowledge Check #
+
+1. How many resource groups can a resource be in at the same time?
+> once, A resource can only be in one group at a time.
+2. What happens to the resources within a resource group when an action or setting at the Resource Group level is applied?
+> The setting is applied to current and future resources.
+Resources inherit permissions from their resource group.
+3. What Azure feature replicates resources across regions that are at least 300 miles away from each other?
+> Region pairs
+Most Azure regions are paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away.
